@@ -1,0 +1,24 @@
+{
+  "name": "employeetracker",
+  "version": "1.0.0",
+  "description": "App to keep track and remove/add information  of employees, roles, departments.",
+  "main": "connection.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccarmander/EmployeeTracker.git"
+  },
+  "author": "Christopher Carman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccarmander/EmployeeTracker/issues"
+  },
+  "homepage": "https://github.com/ccarmander/EmployeeTracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
+  }
+}
